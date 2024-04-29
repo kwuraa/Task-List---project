@@ -12,3 +12,5 @@
 <h2>Como Executar o Projeto</h2>
 <p>Faça o download ou clone do repositório deste projeto.
 <p>Abra o arquivo index.html em um navegador de sua preferência.
+
+--Kawamura--
