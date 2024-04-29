@@ -5,6 +5,10 @@ const taskList = document.querySelector("#todo-list");
 
 let tasks = []; // [{title: Tarefa 1, done: true}...]
 
+function inputCleaner() {
+  taskTitleInput.value = "";
+}
+
 function renderTaskOnHTML(taskTitle, done = false) {
   const li = document.createElement("li");
   li.setAttribute("class", "task-list"); // !
@@ -107,8 +111,4 @@ form.addEventListener("submit", (event) => {
   renderTaskOnHTML(taskTitle);
 
   inputCleaner();
-
-  function inputCleaner() {
-    taskTitleInput.value = "";
-  }
 });
